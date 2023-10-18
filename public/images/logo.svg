@@ -1,1 +1,45 @@
-<svg id="_11" data-name="11" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="58" viewBox="0 0 40 58.13"><defs><style>.cls-1,.cls-2,.cls-3{fill-rule:evenodd;}.cls-1{fill:url(#Blue);}.cls-2{fill:url(#Orange_Yellow);}.cls-3{fill:#fefefe;}</style><linearGradient id="Blue" y1="24.53" x2="36.83" y2="24.53" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#2bc4f3"/><stop offset="0.5" stop-color="#00aeee"/><stop offset="1" stop-color="#0095da"/></linearGradient><linearGradient id="Orange_Yellow" x1="21.59" y1="-17.38" x2="21.59" y2="68.25" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff33b"/><stop offset="0.04" stop-color="#fee72e"/><stop offset="0.12" stop-color="#fed51b"/><stop offset="0.2" stop-color="#fdca10"/><stop offset="0.28" stop-color="#fdc70c"/><stop offset="0.67" stop-color="#f3903f"/><stop offset="0.89" stop-color="#ed683c"/><stop offset="1" stop-color="#e93e3a"/></linearGradient></defs><path class="cls-1" d="M12.16,34.54,3.34,43.37v-31H26.66l5.66-5.65A3.46,3.46,0,1,0,30.92,1a3.47,3.47,0,0,0-.84,3.5L25.52,9.07H1.67a1.64,1.64,0,0,0-1.18.49A1.6,1.6,0,0,0,0,10.71V47.39a1.64,1.64,0,0,0,1,1.54,1.68,1.68,0,0,0,1.82-.36L14.52,36.9,20,42.4V29.06H6.67Z"/><path class="cls-2" d="M39,9.19a1.65,1.65,0,0,0-1.82.37L25.49,21.21,20,15.73V29.06H33.33l-5.48-5.49,8.82-8.81v31H13.33L7.68,51.38a3.46,3.46,0,1,0,1.39,5.74,3.48,3.48,0,0,0,.85-3.49l4.56-4.57H38.36a1.59,1.59,0,0,0,1.14-.49,1.61,1.61,0,0,0,.5-1.18V10.73A1.68,1.68,0,0,0,39,9.19Z"/><path class="cls-3" d="M34.26,4.35a1.26,1.26,0,0,0,0-1.79,1.27,1.27,0,1,0-1.79,1.79,1.26,1.26,0,0,0,1.79,0Z"/><path class="cls-3" d="M7.52,55.57a1.27,1.27,0,0,0,0-1.79,1.26,1.26,0,1,0-1.78,1.79,1.26,1.26,0,0,0,1.78,0Z"/></svg>
+<svg id="_11" data-name="11" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40"
+    height="58" viewBox="0 0 40 58.13">
+    <defs>
+        <style>
+            .cls-1,
+            .cls-2,
+            .cls-3 {
+                fill-rule: evenodd;
+            }
+
+            .cls-1 {
+                fill: url(#Blue);
+            }
+
+            .cls-2 {
+                fill: url(#Orange_Yellow);
+            }
+
+            .cls-3 {
+                fill: #fefefe;
+            }
+        </style>
+        <linearGradient id="Blue" y1="24.53" x2="36.83" y2="24.53" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#2bc4f3" />
+            <stop offset="0.5" stop-color="#00aeee" />
+            <stop offset="1" stop-color="#0095da" />
+        </linearGradient>
+        <linearGradient id="Orange_Yellow" x1="21.59" y1="-17.38" x2="21.59" y2="68.25" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#fff33b" />
+            <stop offset="0.04" stop-color="#fee72e" />
+            <stop offset="0.12" stop-color="#fed51b" />
+            <stop offset="0.2" stop-color="#fdca10" />
+            <stop offset="0.28" stop-color="#fdc70c" />
+            <stop offset="0.67" stop-color="#f3903f" />
+            <stop offset="0.89" stop-color="#ed683c" />
+            <stop offset="1" stop-color="#e93e3a" />
+        </linearGradient>
+    </defs>
+    <path class="cls-1"
+        d="M12.16,34.54,3.34,43.37v-31H26.66l5.66-5.65A3.46,3.46,0,1,0,30.92,1a3.47,3.47,0,0,0-.84,3.5L25.52,9.07H1.67a1.64,1.64,0,0,0-1.18.49A1.6,1.6,0,0,0,0,10.71V47.39a1.64,1.64,0,0,0,1,1.54,1.68,1.68,0,0,0,1.82-.36L14.52,36.9,20,42.4V29.06H6.67Z" />
+    <path class="cls-2"
+        d="M39,9.19a1.65,1.65,0,0,0-1.82.37L25.49,21.21,20,15.73V29.06H33.33l-5.48-5.49,8.82-8.81v31H13.33L7.68,51.38a3.46,3.46,0,1,0,1.39,5.74,3.48,3.48,0,0,0,.85-3.49l4.56-4.57H38.36a1.59,1.59,0,0,0,1.14-.49,1.61,1.61,0,0,0,.5-1.18V10.73A1.68,1.68,0,0,0,39,9.19Z" />
+    <path class="cls-3" d="M34.26,4.35a1.26,1.26,0,0,0,0-1.79,1.27,1.27,0,1,0-1.79,1.79,1.26,1.26,0,0,0,1.79,0Z" />
+    <path class="cls-3" d="M7.52,55.57a1.27,1.27,0,0,0,0-1.79,1.26,1.26,0,1,0-1.78,1.79,1.26,1.26,0,0,0,1.78,0Z" />
+</svg>

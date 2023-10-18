@@ -43,7 +43,7 @@ export default function Navbar({}): any {
       <Link href="#">
         <Button
           variant="default"
-          className="rounded-full w-fit bg-orange-600 gap-2 items-center hidden md:flex"
+          className="rounded-full w-fit bg-gradient-1 gap-2 items-center hidden md:flex"
           size="lg"
         >
           <span>Buy me a Coffee</span>

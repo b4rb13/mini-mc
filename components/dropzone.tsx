@@ -17,6 +17,7 @@ import { MdDone } from "react-icons/md";
 import { Badge } from "@/components/ui/badge";
 import { HiOutlineDownload } from "react-icons/hi";
 import { BiError } from "react-icons/bi";
+import Image from "next/image";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
   Select,
@@ -240,7 +241,7 @@ export default function Dropzone() {
               <Skeleton className="h-full w-full -ml-10 cursor-progress absolute rounded-xl" />
             )}
             <div className="flex gap-4 items-center">
-              <span className="text-2xl text-orange-600">
+              <span className="text-2xl text-[#53a63f]">
                 {fileToIcon(action.file_type)}
               </span>
               <div className="flex items-center gap-1 w-96">
@@ -449,7 +450,12 @@ export default function Dropzone() {
             ) : (
               <>
                 <div className="justify-center flex text-6xl">
-                  <FiUploadCloud />
+                  <Image
+                    width={120}
+                    height={120}
+                    alt="icon"
+                    src={"/images/logo.svg"}
+                  />
                 </div>
                 <h3 className="text-center font-medium text-2xl">
                   Click, or drop your files here

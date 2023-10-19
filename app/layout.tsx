@@ -8,11 +8,8 @@ import GA from "@/components/GA";
 const blackOpsOne = Black_Ops_One({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Xareb - File Converter",
-  description: `Unleash your creativity with Xareb – the ultimate online tool for
-  unlimited and free multimedia conversion. Transform images, audio, and
-  videos effortlessly, without restrictions. Start converting now and
-  elevate your content like never before!`,
+  title: "Mini-MC - File Converter",
+  description: `Media files converter`,
   creator: "Andrey Arakelyan, Derenik Khachatryan",
   keywords:
     "image converter, video converter, audio converter, unlimited image converter, unlimited video converter",

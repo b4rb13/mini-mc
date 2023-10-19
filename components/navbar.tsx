@@ -47,7 +47,7 @@ export default function Navbar({}): any {
           size="lg"
         >
           <span>Buy me a Coffee</span>
-          <span className="text-xl">
+          <span className="text-4xl">
             <DiCoffeescript />
           </span>
         </Button>

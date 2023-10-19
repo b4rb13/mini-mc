@@ -22,16 +22,16 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "gradient-1": `linear-gradient(
-                          337deg, 
-                          #fff33b 0%, 
-                          #fee72e 4%, 
-                          #fed51b 12%, 
-                          #fdca10 20%, 
-                          #fdc70c 28%, 
-                          #f3903f 67%, 
-                          #ed683c 89%, 
-                          #e93e3a 100%
-                      )`,
+          337deg, 
+          #bfff3b 0%,    
+          #a8ee2e 4%, 
+          #91d51b 12%, 
+          #79ca10 20%, 
+          #70c70c 28%, 
+          #53a63f 67%,   
+          #46833c 89%, 
+          #3a703a 100%   
+      )`,
         "gradient-2": `background: linear-gradient(
                           to right, 
                           #2bc4f3 0%, 

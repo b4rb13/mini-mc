@@ -1,25 +1,20 @@
-import "./globals.css";
-import type { Metadata } from "next";
-import { Black_Ops_One } from "next/font/google";
-import Navbar from "@/components/navbar";
-import { Toaster } from "@/components/ui/toaster";
-import GA from "@/components/GA";
+import './globals.css';
+import type { Metadata } from 'next';
+import { Black_Ops_One } from 'next/font/google';
+import Navbar from '@/components/navbar';
+import { Toaster } from '@/components/ui/toaster';
+import GA from '@/components/GA';
 
-const blackOpsOne = Black_Ops_One({ weight: "400", subsets: ["latin"] });
+const blackOpsOne = Black_Ops_One({ weight: '400', subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: "Mini-MC - File Converter",
+  title: 'Mini-MC - File Converter',
   description: `Media files converter`,
-  creator: "Andrey Arakelyan, Derenik Khachatryan",
-  keywords:
-    "image converter, video converter, audio converter, unlimited image converter, unlimited video converter",
+  creator: 'Andrey Arakelyan, Derenik Khachatryan',
+  keywords: 'image converter, video converter, audio converter, unlimited image converter, unlimited video converter',
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <GA GA_MEASUREMENT_ID="mer GA ID-n" />

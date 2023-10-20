@@ -12,5 +12,7 @@
   "aliases": {
     "components": "@/components",
     "utils": "@/lib/utils"
-  }
+  },
+  "extends": [],
+  "pipeline": {}
 }

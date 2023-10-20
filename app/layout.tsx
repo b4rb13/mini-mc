@@ -1,7 +1,7 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import { Black_Ops_One } from 'next/font/google';
-import Navbar from '@/components/navbar';
+// import Navbar from '@/components/navbar';
 import { Toaster } from '@/components/ui/toaster';
 import GA from '@/components/GA';
 
@@ -20,9 +20,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <GA GA_MEASUREMENT_ID="mer GA ID-n" />
       <meta name="google-site-verification" content="heto generate kanenq" />
       <body className={blackOpsOne.className} style={{ minWidth: '390px' }}>
-        <Navbar />
+        {/*<Navbar />*/}
         <Toaster />
-        <div className="pt-32 min-h-screen lg:pt-36 2xl:pt-44 container max-w-4xl lg:max-w-6xl 2xl:max-w-7xl">
+        <div className="pt-8 min-h-screen lg:pt-36 2xl:pt-44 container max-w-4xl lg:max-w-6xl 2xl:max-w-7xl">
           {children}
         </div>
       </body>

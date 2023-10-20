@@ -1,7 +1,13 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
+import type { Config } from 'tailwindcss';
+
+const config: Config = {
   darkMode: ['class'],
-  content: ['./pages/**/*.{ts,tsx}', './components/**/*.{ts,tsx}', './app/**/*.{ts,tsx}', './src/**/*.{ts,tsx}'],
+  content: [
+    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/**/*.{js,ts,jsx,tsx,mdx}',
+  ],
   theme: {
     container: {
       center: true,
@@ -11,6 +17,27 @@ module.exports = {
       },
     },
     extend: {
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'gradient-1': `linear-gradient(
+          337deg, 
+          #bfff3b 0%,    
+          #a8ee2e 4%, 
+          #91d51b 12%, 
+          #79ca10 20%, 
+          #70c70c 28%, 
+          #53a63f 67%,   
+          #46833c 89%, 
+          #3a703a 100%   
+      )`,
+        'gradient-2': `background: linear-gradient(
+                          to right, 
+                          #2bc4f3 0%, 
+                          #00aeee 50%, 
+                          #0095da 100%
+                      )`,
+      },
       colors: {
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
@@ -53,12 +80,12 @@ module.exports = {
       },
       keyframes: {
         'accordion-down': {
-          from: { height: 0 },
+          from: { height: '0' },
           to: { height: 'var(--radix-accordion-content-height)' },
         },
         'accordion-up': {
           from: { height: 'var(--radix-accordion-content-height)' },
-          to: { height: 0 },
+          to: { height: '0' },
         },
       },
       animation: {
@@ -69,3 +96,4 @@ module.exports = {
   },
   plugins: [require('tailwindcss-animate')],
 };
+export default config;

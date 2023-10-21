@@ -40,7 +40,7 @@ export default function Navbar({}): any {
           </Button>
         </Link>
       </div>
-      <Link href="#">
+      <Link href="https://www.buymeacoffee.com/minimc" target={'_blank'}>
         <Button
           variant="default"
           className="rounded-full w-fit bg-gradient-1 gap-2 items-center hidden md:flex"

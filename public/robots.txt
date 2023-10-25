@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://mini-mc.app
+
+# Sitemaps
+Sitemap: https://mini-mc.app/sitemap.xml

@@ -10,7 +10,7 @@ function App() {
       <div className="space-y-8 pb-8">
         {/* Title + Desc */}
         <div className="space-y-3">
-          <h1 className="text-3xl md:text-5xl font-medium text-center">Mini Media Converter</h1>
+          <h1 className="text-3xl md:text-5xl font-medium text-center text-[#6ABC46]">Mini Media Converter</h1>
           <p className="text-gray-400 text-lg md:text-lg text-center md:px-24 xl:px-44 2xl:px-52">
             Give me a media file and I'll convert it.
           </p>

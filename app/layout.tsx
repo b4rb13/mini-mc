@@ -13,6 +13,9 @@ export const metadata: Metadata = {
   creator: "Andrey Arakelyan, Derenik Khachatryan",
   keywords:
     "image converter, video converter, audio converter, unlimited image converter, unlimited video converter",
+    openGraph: {
+      images: ['/images/favicon.png']
+    }
 };
 
 export default function RootLayout({

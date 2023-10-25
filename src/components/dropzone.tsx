@@ -206,10 +206,10 @@ export default function Dropzone() {
             key={i}
             className="w-full py-4 space-y-2 lg:py-0 relative cursor-pointer rounded-xl border h-fit lg:h-20 px-4 lg:px-10 flex flex-wrap lg:flex-nowrap items-center justify-between"
           >
-            {!is_loaded && <Skeleton className="h-full w-full -ml-10 cursor-progress absolute rounded-xl" />}
+            {!is_loaded && <Skeleton className="h-full w-full -ml-4 cursor-progress absolute rounded-xl" />}
             <div className="flex gap-4 items-center">
               <span className="text-2xl text-[#53a63f]">{fileToIcon(action.file_type)}</span>
-              <div className="flex items-center gap-1 w-96">
+              <div className="flex items-center gap-1">
                 <span className="text-md font-medium overflow-x-hidden">{compressFileName(action.file_name)}</span>
                 <span className="text-gray-400 text-sm">({bytesToSize(action.file_size)})</span>
               </div>
@@ -326,7 +326,7 @@ export default function Dropzone() {
             )}
           </div>
         ))}
-        <div className="flex w-full justify-end">
+        <div className="flex w-full justify-center">
           {is_done ? (
             <div className="space-y-4 w-fit">
               <Button

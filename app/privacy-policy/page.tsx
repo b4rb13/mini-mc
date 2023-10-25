@@ -94,7 +94,8 @@ export default function PrivacyPolicy() {
         <p>
           For queries or concerns about this Privacy Policy or data collection
           practices, reach us at{" "}
-          <a href="mailto:mail@mail.com">mail@mail.com</a>.
+          <a href="mailto:deren.kha@gmail.com">deren.kha@gmail.com</a> or 
+          <a href="mailto:andrey.arakelyan@outlook.com">andrey.arakelyan@outlook.com</a>
         </p>
 
         <p>

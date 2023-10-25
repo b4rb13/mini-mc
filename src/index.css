@@ -1,11 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Hairy Monster';
+  src: url('assets/fonts/hairy-monster.ttf');
+}
+
+@font-face {
+  font-family: 'MR.MONSTAR';
+  src: url('assets/fonts/mr.monstar.otf');
+}
+
 body {
-  font-family: 'Black Ops One', sans-serif;
+  font-family: 'Hairy Monster', sans-serif;
+}
+
+h1 {
+  font-family: 'MR.MONSTAR', sans-serif;
 }
 
 @layer base {

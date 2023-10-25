@@ -25,7 +25,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <GA GA_MEASUREMENT_ID="mer GA ID-n" />
+      <GA GA_MEASUREMENT_ID="G-8P507Z359K" />
       <meta name="google-site-verification" content="ybDI4eB4ePl47onAYWYxcdm59JSbdNVRhQU_U4yMdCs" />
       <body className={blackOpsOne.className}>
         <Navbar />

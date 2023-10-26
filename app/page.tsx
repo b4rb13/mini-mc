@@ -3,6 +3,7 @@ import Dropzone from "@/components/dropzone";
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { FiChrome } from 'react-icons/fi';
+import { DiCoffeescript } from 'react-icons/di';
 
 export default function Home() {
   return (
@@ -23,12 +24,24 @@ export default function Home() {
         <Link href="https://chrome.google.com/webstore/detail/minimc/mbnaeflecnnmflflfihjdhgbkofbmgod" target={'_blank'}>
           <Button
             variant="default"
-            className="rounded-full w-fit bg-gradient-1 gap-2 items-center md:flex"
+            className="rounded-full w-fit bg-gradient-1 gap-2 items-center hidden md:flex xs:hidden sm:hidden"
             size="lg"
           >
             <span>Add to Chrome</span>
             <span className="text-4xl">
             <FiChrome />
+          </span>
+          </Button>
+        </Link>
+        <Link href="https://www.buymeacoffee.com/minimc" target={'_blank'}>
+          <Button
+            variant="default"
+            className="rounded-full w-fit bg-gradient-1 gap-2 items-center md:hidden lg:hidden xl:hidden sm:visible xs:visible"
+            size="lg"
+          >
+            <span>Buy me a Coffee</span>
+            <span className="text-4xl">
+            <DiCoffeescript />
           </span>
           </Button>
         </Link>

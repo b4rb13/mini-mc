@@ -4,6 +4,7 @@ import { Button } from './ui/button';
 import Link from 'next/link';
 import { DiCoffeescript } from 'react-icons/di';
 import { GrMenu } from 'react-icons/gr';
+import { FiChrome } from 'react-icons/fi';
 import {
   Sheet,
   SheetContent,
@@ -40,10 +41,10 @@ export default function Navbar({}): any {
           </Button>
         </Link>
       </div>
-      <Link href="https://www.buymeacoffee.com/minimc" target={'_blank'}>
+      <Link className={'hidden md:flex lg:flex xl:flex 2xl:flex'} href="https://www.buymeacoffee.com/minimc" target={'_blank'}>
         <Button
           variant="default"
-          className="rounded-full w-fit bg-gradient-1 gap-2 items-center hidden md:flex"
+          className="flex rounded-full w-fit bg-gradient-1 gap-2 items-center"
           size="lg"
         >
           <span>Buy me a Coffee</span>
@@ -52,6 +53,20 @@ export default function Navbar({}): any {
           </span>
         </Button>
       </Link>
+      <div>
+        <Link className={'md:hidden lg:hidden xl:hidden sm:visible'} href="https://chrome.google.com/webstore/detail/minimc/mbnaeflecnnmflflfihjdhgbkofbmgod" target={'_blank'}>
+          <Button
+            variant="default"
+            className="rounded-full w-fit bg-gradient-1 gap-2 items-center"
+            size="lg"
+          >
+            <span>Add to Chrome</span>
+            <span className="text-4xl">
+            <FiChrome />
+          </span>
+          </Button>
+        </Link>
+      </div>
 
       {/* MOBILE NAV */}
       <Sheet>

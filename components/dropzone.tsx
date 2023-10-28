@@ -79,8 +79,7 @@ export default function Dropzone() {
   const [is_done, setIsDone] = useState<boolean>(false);
   const ffmpegRef = useRef<any>(null);
   const [defaultValues, setDefaultValues] = useState<string>("video");
-  const [selcted, setSelected] = useState<string>("...");
-  const accepted_files = {
+  const [selected, setSelected] = useState<{ [key: string]: string }>();  const accepted_files = {
     "image/*": [
       ".jpg",
       ".jpeg",
@@ -105,6 +104,7 @@ export default function Dropzone() {
     setFiles([]);
     setIsReady(false);
     setIsConverting(false);
+    setSelected({});
   };
   const downloadAll = (): void => {
     for (let action of actions) {
@@ -244,7 +244,7 @@ export default function Dropzone() {
               <span className="text-2xl text-[#53a63f]">
                 {fileToIcon(action.file_type)}
               </span>
-              <div className="flex items-center gap-1 w-96">
+              <div className="flex items-center gap-1 md:w-96 lg:w-96 sm:w-48">
                 <span className="text-md font-medium overflow-x-hidden">
                   {compressFileName(action.file_name)}
                 </span>
@@ -281,10 +281,13 @@ export default function Dropzone() {
                     } else if (extensions.video.includes(value)) {
                       setDefaultValues("video");
                     }
-                    setSelected(value);
+                    setSelected(prev => ({
+                      ...prev,
+                      [action.file_name]: value,
+                    }));
                     updateAction(action.file_name, value);
                   }}
-                  value={selcted}
+                  value={selected?.[action.file_name] || ''}
                 >
                   <SelectTrigger className="w-32 outline-none focus:outline-none focus:ring-0 text-center text-gray-600 bg-gray-50 text-md font-medium">
                     <SelectValue placeholder="..." />

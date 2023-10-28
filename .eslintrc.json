@@ -9,6 +9,9 @@
   },
   "rules": {
     "semi": 0,
-    "no-extra-semi": ["error", "never"]
+    "no-extra-semi": ["error"],
+    "react/react-in-jsx-scope": "off",
+    "max-len": "off",
+    "react/no-unescaped-entities": 0
   }
 }
